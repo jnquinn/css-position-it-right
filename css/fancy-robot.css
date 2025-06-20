@@ -1,22 +1,111 @@
 .robot-container {
+    height:1000px;
+    width: 2000px;
+    border: solid thick black;
+    background: white;
 }
 
+
 .robot-face-shape {
+    border: solid thick black;
+    border-radius: 15%/50%;
+    height: 500px;
+    width: 700px;
+    background-color: antiquewhite;
+    position: absolute;
+    left: 50%;
+    top: 25%;
 }
 
 .robot-eye-left {
+    /*border: solid thick black;
+    border-radius: 50%;
+    Height: 150px;
+    width: 200px;
+    background-color: rgb(240, 143, 16);*/
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    width: 0;
+	height: 0;
+	border-top: 100px solid transparent;
+	border-left: 150px solid #555;
+	border-bottom: 100px solid transparent;
 }
-
-.robot-eye-right {
+/*.robot-pupil-left {
+    border: solid rgb(8, 128, 78);
+    Height: 140px;
+    width: 7px;
+    background-color: rgb(8, 128, 78);
+    position: absolute;
+    left: 7px;
+    top: 2px;
+}*/
+.robot-eye-right {   
+    border: solid thick black;
+    border-radius: 50%;
+    Height: 200px;
+    width: 200px;
+    background-color: rgb(240, 143, 16);
+    position: absolute;
+    right: 13%;
+    top: 50px;
+}
+.robot-pupil-right {
+    border: solid rgb(107, 69, 19);
+    Height: 12px;
+    width: 190px;
+    transform: rotate(-0.2turn);
+    background-color: rgb(107, 69, 19);
+    position: absolute;
+    right: 1px;
+    top: 47%;
 }
 
 .robot-ear-left {
+    height: 40px;
+    width: 20px;
+    background: linear-gradient (#a7c1d0, #677882);
 }
+.robot-ear-left-1 {
+    height: 40px;
+    width: 20px;
+    background: linear-gradient (#a7c1d0, #677882);
+    /*position: absolute;*/
+}
+.robot-ear-left-2 {
+     height: 30px;
+    width: 20px;
+    background: linear-gradient (#a7c1d0, #677882);
+    position: absolute;
+}.robot-ear-left-3 {
+     height: 20px;
+    width: 20px;
+    background: linear-gradient (#a7c1d0, #677882);
+    position: absolute;
+}
+
 
 .robot-ear-right {
 }
+.robot-ear-right-1{
+    position: absolute;
+}
+.robot-ear-right-2{ 
+    position: absolute; 
+}
+.robot-ear-right-3{
+    position: absolute;  
+}
 
 .robot-nose {
+    width: 126px;
+    height: 180px;
+    background-color: red;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    position: fixed;
+    top: 50%;
+    left: 445px;
 }
 
 .robot-teeth {
