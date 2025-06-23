@@ -32,6 +32,7 @@ header.exercise-header {
   background-color: black;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   position: fixed;
+  right:0;
   width: 100%;
   display: flex;
   align-items: center;
