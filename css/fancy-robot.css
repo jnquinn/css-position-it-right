@@ -1,6 +1,6 @@
 .robot-container {
-    height:1000px;
-    width: 1500px;
+    height:7000px;
+    width: 100%;
     border: solid thick black;
     background: white;
 }
@@ -9,9 +9,9 @@
 .robot-face-shape {
     z-index: 1;
     border: solid thick black;
-    border-radius: 15%/50%;
-    height: 500px;
-    width: 700px;
+    border-radius: 50% 50% 4% 4% ;
+    height: 300px;
+    width: 288px;
     background-image: url("https://picsum.photos/id/115/200/300");
     background-size: cover;
     position: fixed;
@@ -22,22 +22,21 @@
     border: solid 10px black;
     padding: 10px;
     border-radius: 50%;
-    Height: 200px;
-    width: 200px;
+    Height: 100px;
+    width: 100px;
     background: #a7c1d0;
     position: absolute;
-    left: 13%;
-    top: 50px;
+    left: 5%;
+    bottom: 20px;
 }
-.robot-eye-left-1 { 
+/*.robot-eye-left-1 { 
     border: solid 10px black;
     border-radius: 50%;
     Height: 90%;
     width: 90%;
     background: #677882;
     position: absolute;
-}
-
+}*/
 .robot-pupil-left {
     border-radius: 50%;
     Height: 60%;
@@ -47,28 +46,28 @@
     right: 20%;
     top: 20%;
 }
+
 .robot-eye-right {   
     border: solid 10px black;
     padding: 10px;
     border-radius: 50%;
-    Height: 200px;
-    width: 200px;
+    Height: 100px;
+    width: 100px;
     background: #a7c1d0;
     position: absolute;
-    right: 13%;
-    top: 50px;
+    right: 5%;
+    bottom: 20px;
 }
-.robot-eye-right-1 { 
+/*.robot-eye-right-1 { 
     border: solid 10px black;
     border-radius: 50%;
     Height: 90%;
     width: 90%;
     background: #677882;
     position: absolute;
-    /*left: 10%;
-    top: 10%;*/
-}
-    
+    left: 10%;
+    top: 10%;
+}*/
 .robot-pupil-right {
     border: solid rgb(107, 69, 19,);
     Height: 60%;
@@ -79,146 +78,165 @@
     right: 20%;
     top: 20%;
 }
+
 .robot-nose {
     border: Solid 10px Black;
-    width: 126px;
-    height: 180px;
+    width: 30px;
+    height: 30px;
     background-color: #a7c1d0;
-    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    border-radius: 50%;
     position: absolute;
-    top: 40%;
-    left: 37%;
+    top: 90%;
+    left: 45%;
     transform: scale(.7);
 }
 
 .robot-ear-left {
-    width: 400px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
     position: fixed;
-    left: 80px;
-    top: 330px;
+    left: 245px;
+    top: 370px;
 }
 .robot-ear-left-1 {
-    width: 100px;
-    height: 180px;
+    width: 50px;
+    height: 90px;
     background: linear-gradient(#a7c1d0, #677882);
     border-radius: 20%/50%;
     position: absolute;
     right: 0;
     top: 0;
+    border: solid 5px black;
+    border-right: none;
 }
 .robot-ear-left-2 {
-    height: 140px;
-    width: 100px;
+    height: 70px;
+    width: 50px;
+    background: linear-gradient(#a7c1d0, #677882);
+    position: absolute;
+    border-radius: 20%/50%;
+    right: 30px;
+    top: 12px;
+    border: solid 5px black;
+    border-right: none;
+}
+.robot-ear-left-3 {
+     height: 50px;
+    width: 40px;
     background: linear-gradient(#a7c1d0, #677882);
     position: absolute;
     border-radius: 20%/50%;
     right: 60px;
-    top: 30px;
+    top: 20px;
+    border: solid 5px black;
+    border-right: none;
 }
-.robot-ear-left-3 {
-     height: 100px;
-    width: 80px;
-    background: linear-gradient(#a7c1d0, #677882);
-    position: absolute;
-    border-radius: 20%/50%;
-    right: 120px;
-    top: 60px;
-}
-.robot-ear-right {
-    width: 400px;
+
+.robot-ear-right{
+    width: 100px;
     height: 200px;
     position: fixed;
-    right: 700px;
-    top: 330px;
+    right: 630px;
+    top: 370px;
+    border: 1px black;
 }
 .robot-ear-right-1{
-    width: 100px;
-    height: 180px;
+    width: 50px;
+    height: 90px;
     background: linear-gradient(#a7c1d0, #677882);
     border-radius: 20%/50%;
     position: absolute;
     left: 0;
     top: 0;
+    border: solid 5px black;
+    border-left: none;
 }
 .robot-ear-right-2{ 
-    height: 140px;
-    width: 100px;
+    height: 70px;
+    width: 50px;
+    background: linear-gradient(#a7c1d0, #677882);
+    position: absolute;
+    border-radius: 20%/50%;
+    left: 30px;
+    top: 12px;
+    border: solid 5px black;
+    border-left: none;
+}
+.robot-ear-right-3{
+    height: 50px;
+    width: 40px;
     background: linear-gradient(#a7c1d0, #677882);
     position: absolute;
     border-radius: 20%/50%;
     left: 60px;
-    top: 30px;
-}
-.robot-ear-right-3{
-    height: 100px;
-    width: 80px;
-    background: linear-gradient(#a7c1d0, #677882);
-    position: absolute;
-    border-radius: 20%/50%;
-    left: 120px;
-    top: 60px; 
+    top: 20px; 
+    border: solid 5px black;
+    border-left: none;
 }
 
 
 .robot-teeth {
  border: solid thick black;
-    border-radius: 50%;
+    border-radius: 10%;
     Height: 100px;
-    width: 500px;
-    background-color: black;
+    width: 280px;
+    background-image: url("https://picsum.photos/id/115/200/300");
+    background-size: cover;
+    background-position: bottom;
     position: absolute;
-    right: 13%;
-    top: 350px;
-    overflow: hidden;
+    top: 310px;
+    
 }
 
-.robot-tooth {
+/*.robot-tooth {
     height: 50px;
     width: 25px;
     background-color: wheat;
     border: black;
     border-radius: 10px;
     position: absolute;
-}
+}*/
 
 .robot-hair-style {
-    height: 400px;
-    width: 400px;
+    height: 250px;
+    width: 300px;
+    top: 10%;
+    left: 415px;
     position: sticky;
-    left: 570px;
-    top: 20px;
+    border: solid #fc4a1a;
 }
 
 .robot-hair-one {
-    border: solid thick black;
-    Height: 18px;
+    border: solid  black;
+    Height: 10px;
     width: 190px;
     transform: rotate(.2turn);
     background-color: #a7c1d0;
     position: absolute;
-    right: 204px;
-    top: 30%;
+    right:80px;
+    top: 90px;
+    
 }
 
 .robot-hair-two {
-    border: solid thick black;
-    Height: 18px;
+    border: solid black;
+    Height: 10px;
     width: 190px;
     transform: rotate(-0.2turn);
     background-color: #a7c1d0;
     position: absolute;
     right: 3px;
-    top: 30%;
+    top:90px;
 }
 
 .robot-hair-three {
-    border: solid thick black;
-    Height: 190px;
-    width: 190px;
+    border: solid  black;
+    Height: 100px;
+    width: 100px;
     border-radius: 50%;
     background-color: #a7c1d0;
     position: absolute;
     left: 110px;
-    top: 30%;
+    top: 130px;
+    
 }
