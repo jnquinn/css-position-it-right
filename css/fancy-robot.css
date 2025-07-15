@@ -1,5 +1,5 @@
 .robot-container {
-    height:7000px;
+    height: 100%;
     width: 100%;
     border: solid thick black;
     background: white;
@@ -15,15 +15,16 @@
     background-image: url("https://picsum.photos/id/115/200/300");
     background-size: cover;
     position: fixed;
-    left: 30%;
-    top: 25%;
+    top: 300px;
+    left: 50%;
+    margin-left: -144px;
 }
 .robot-eye-left {
-    border: solid 10px black;
+    border: solid 10px #00000090;
     padding: 10px;
     border-radius: 50%;
-    Height: 100px;
-    width: 100px;
+    Height: 33%;
+    width: 35%;
     background: #a7c1d0;
     position: absolute;
     left: 5%;
@@ -48,11 +49,11 @@
 }
 
 .robot-eye-right {   
-    border: solid 10px black;
+    border: solid 10px #00000090;
     padding: 10px;
     border-radius: 50%;
-    Height: 100px;
-    width: 100px;
+    Height: 33%;
+    width: 35%;
     background: #a7c1d0;
     position: absolute;
     right: 5%;
@@ -95,8 +96,9 @@
     width: 200px;
     height: 100px;
     position: fixed;
-    left: 245px;
-    top: 370px;
+    left: 50%;
+    margin-left: -320px;
+    top: 480px;
 }
 .robot-ear-left-1 {
     width: 50px;
@@ -133,11 +135,12 @@
 }
 
 .robot-ear-right{
-    width: 100px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
     position: fixed;
-    right: 630px;
-    top: 370px;
+    right: 50%;
+    margin-right: -320px;
+    top: 480px;
     border: 1px black;
 }
 .robot-ear-right-1{
@@ -178,7 +181,7 @@
 .robot-teeth {
  border: solid thick black;
     border-radius: 10%;
-    Height: 100px;
+    Height: 6em;
     width: 280px;
     background-image: url("https://picsum.photos/id/115/200/300");
     background-size: cover;
@@ -200,8 +203,9 @@
 .robot-hair-style {
     height: 250px;
     width: 300px;
-    top: 10%;
-    left: 415px;
+    top: 150px;
+    left: 50%;
+    translate: -54%;
     position: sticky;
 }
 
@@ -230,12 +234,12 @@
 
 .robot-hair-three {
     border: solid  black;
-    Height: 100px;
-    width: 100px;
-    border-radius: 50%;
+    Height: 80px;
+    width: 80px;
+    border-radius: 20%;
     background-color: #a7c1d0;
     position: absolute;
-    left: 110px;
+    left: 120px;
     top: 130px;
     
 }
